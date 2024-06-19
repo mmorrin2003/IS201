@@ -1,0 +1,49 @@
+header {
+    font-size: 72pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: 1pt solid black;
+    margin: 0rem 0rem 1rem;
+    text-align: center;
+}
+
+#maincontent {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #ffffff50;
+
+}
+
+.column {
+    text-align: left;
+    border-left: 1pt solid black;
+    min-height: 60vh;
+    padding: 0rem 1rem;
+
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#closing {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 2rem;
+}
+
+#aboutme {
+    text-decoration: none;
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: .33rem;
+}
+
+body {
+    background-image: url("../images/love.jpg");
+    background-size: 100%;
+    background-blend-mode: lighten;
+    background-color: #87CEEB;
+
+}
